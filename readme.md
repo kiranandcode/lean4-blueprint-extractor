@@ -21,7 +21,7 @@ options:
 ```
 
 
-The generated files have the following structure:
+The generated files have the following structure, see `pfr.json` for the graph for the Lean PFR formalisation extracted on <07-05-2024>:
 ```json
 {
    "b3a101d5a83231b0febb33a487a6322537d0d9ae":
