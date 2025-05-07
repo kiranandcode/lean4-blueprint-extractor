@@ -25,7 +25,7 @@ The generated files have the following structure, see `pfr.json` for the graph f
 ```json
 {
    "b3a101d5a83231b0febb33a487a6322537d0d9ae":
-     "date": "<string> 2023-11-15T02:57:58"
+     "date": "<string> 2023-11-15T02:57:58",
      graph:  [ {
          id: <string> "entropy-def",
          node_deps: ["entropy-def"],
@@ -39,7 +39,7 @@ The generated files have the following structure, see `pfr.json` for the graph f
          node_full_title: <string> "1.1 Entropy",
          node_text_content: <string> "If X is an S-valued random variable, the entropy H[X] of X is defined  H[X] := ∑s S P[X=x]  with the convention that 0  = 0. ",
          node_can_state: <boolean> "true",
-         node_can_prove: <boolean> "false"
+         node_can_prove: <boolean> "false",
          node_proved:  <boolean> "false",
          node_fully_proved: <boolean> "true"
       } ]
