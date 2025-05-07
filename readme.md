@@ -21,3 +21,28 @@ options:
 ```
 
 
+The generated files have the following structure:
+```json
+{
+   "b3a101d5a83231b0febb33a487a6322537d0d9ae":
+     "date": "<string> 2023-11-15T02:57:58"
+     graph:  [ {
+         id: <string> "entropy-def",
+         node_deps: ["entropy-def"],
+         node_lean_decls: ["entropy"],
+         node_name: <string> "thmenv",
+         node_title: <string> "Entropy",
+         node_source: <string> "\begin{thmenv}[Entropy] ...",
+         node_caption: <string> "Definition",
+         node_caption_name: <string> "Theorem",
+         node_tag_name: <string> "definition",
+         node_full_title: <string> "1.1 Entropy",
+         node_text_content: <string> "If X is an S-valued random variable, the entropy H[X] of X is defined  H[X] := ∑s S P[X=x]  with the convention that 0  = 0. ",
+         node_can_state: <boolean> "true",
+         node_can_prove: <boolean> "false"
+         node_proved:  <boolean> "false",
+         node_fully_proved: <boolean> "true"
+      } ]
+}
+```
+
