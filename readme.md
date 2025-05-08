@@ -47,3 +47,7 @@ The generated files have the following structure, see `pfr.json` for the graph f
 ```
 
 
+### Example of the generated file
+
+![demo](https://raw.githubusercontent.com/kiranandcode/lean4-blueprint-extractor/main/video.webm)
+
