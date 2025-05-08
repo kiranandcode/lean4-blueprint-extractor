@@ -54,8 +54,8 @@ def extract_graphs_across_commits(repo_path, blueprint_path='blueprint'):
     results = {}
     last_graph_serial = None
     for commit in progress(commits, desc='Extracting graphs'):
-        run_git(['checkout', '--quiet', commit], cwd=repo_path)
         try:
+            run_git(['checkout', '--quiet', commit], cwd=repo_path)
             doc = load_blueprint_doc(repo_path)
             graph = serialise_blueprint_graph(doc)
             graph_serial = json.dumps(graph, sort_keys=True)
